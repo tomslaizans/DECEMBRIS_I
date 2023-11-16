@@ -2,7 +2,7 @@
 cipars=int(input("Ievadi ciparu, kurš ir vismaz 1:"))
 
 #parbauda vai ir vismaz 1
-while cipars < 0:
+while cipars <= 0:
     print("Ievieto ciparu, kas ir vismaz 1")
     cipars=int(input("Tagad ievadi ciparu, kurš ir vismaz 1:"))
 
